@@ -20,6 +20,35 @@ This project combines elements of computer vision and deep learning with web int
     ```bash
     pip install -r requirements.txt --quiet
     ```
+
+### Quick Start
+
+Get the application running in just 3 steps:
+
+1. **Clone and setup:**
+   ```bash
+   git clone https://github.com/SGCODEX/Music-Recommendation-Using-Facial-Expressions.git
+   cd Music-Recommendation-Using-Facial-Expressions
+   pip install -r requirements.txt --quiet
+   ```
+
+2. **Choose your interface** and run one of these commands:
+   - **Streamlit Web App (Recommended for beginners):**
+     ```bash
+     streamlit run code/ui_interfaces/app_local_streamlit.py
+     ```
+   - **Desktop App:**
+     ```bash
+     python code/ui_interfaces/app_PySimpleGUI.py
+     ```
+   - **Terminal/CLI:**
+     ```bash
+     python code/ui_interfaces/cli_main.py
+     ```
+
+3. **Allow webcam access** when prompted and start detecting emotions! 🎵
+
+> **Note:** Ensure your webcam is connected and working properly before running the application.
     
 ### How to Run & Interface Options
 
